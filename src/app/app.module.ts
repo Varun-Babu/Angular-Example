@@ -12,6 +12,7 @@ import { EmployeeLoginComponent } from './employee-login/employee-login.componen
 import { EmployeeSignUpComponent } from './employee-sign-up/employee-sign-up.component';
 import { AddCoursesComponent } from './add-courses/add-courses.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const myRoute : Routes =[
@@ -60,6 +61,7 @@ const myRoute : Routes =[
     EmployeeSignUpComponent,
     AddCoursesComponent,
     AddFriendsComponent,
+    NavbarComponent,
   
   ],
   imports: [
