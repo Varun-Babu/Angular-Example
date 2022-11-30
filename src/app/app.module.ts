@@ -16,6 +16,7 @@ import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { Navbar2Component } from './navbar2/navbar2.component';
+import { Navbar3Component } from './navbar3/navbar3.component';
 
 
 const myRoute : Routes =[
@@ -66,6 +67,7 @@ const myRoute : Routes =[
     AddFriendsComponent,
     NavbarComponent,
     Navbar2Component,
+    Navbar3Component,
   
   ],
   imports: [
