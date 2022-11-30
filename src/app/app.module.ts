@@ -13,6 +13,7 @@ import { EmployeeSignUpComponent } from './employee-sign-up/employee-sign-up.com
 import { AddCoursesComponent } from './add-courses/add-courses.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 
 
 const myRoute : Routes =[
@@ -67,7 +68,8 @@ const myRoute : Routes =[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
