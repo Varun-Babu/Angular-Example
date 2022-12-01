@@ -10,6 +10,23 @@ export class EmployeeSignUpComponent {
   username=""
   password=""
   confirmpassword=""
+  joiningdate = ""
+  experience = ""
+  degree = ""
+  gender = ""
+  parentname = ""
+  email= ""
+  mobile = ""
+  country = ""
+  state = ""
+  pincode = ""
+  street = ""
+  houseno = ""
+  lastname = ""
+  firstname = ""
+  id = ""
+
+
 
   constructor(private route:Router){}
 
