@@ -7,71 +7,86 @@
             <div class="row g-3">
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Id</label>
-                    <input type="text" class="form-control">
+                    <input name="id" [(ngModel)]="id" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">First Name</label>
-                    <input type="text" class="form-control">
+                    <input name="firstname" [(ngModel)]="firstname" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Last Name</label>
-                    <input type="text" class="form-control">
+                    <input name="lastname" [(ngModel)]="lastname" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">House No</label>
-                    <input type="text" class="form-control">
+                    <input name="houseno" [(ngModel)]="houseno" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Street Name</label>
-                    <input type="text" class="form-control">
+                    <input name="street" [(ngModel)]="street" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Pincode</label>
-                    <input type="text" class="form-control">
+                    <input name="pincode" [(ngModel)]="pincode" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">District</label>
-                    <input type="text" class="form-control">
+                    <select name="district" id="" class="form-control">
+                        <option value="Trivandrum">Trivandrum</option>
+                        <option value="Kollam">Kollam</option>
+                        <option value="Alapuzha">Alapuzha</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Idukki">Idukki</option>
+                        <option value="Kannur">Kannur</option>
+                        <option value="Kasargod">Kasargod</option>
+                        <option value="Kozhikode">Kozhikode</option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Malapuram">Malapuram</option>
+                        <option value="Palakkad">Palakkad</option>
+                        <option value="Pathanamthitta">Pathanamthitta</option>
+                        <option value="Thrissur">Thrissur</option>
+                        <option value="Wayanad">Wayanad</option>
+                    </select>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">State</label>
-                    <input type="text" class="form-control">
+                    <input name="state" [(ngModel)]="state" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Country</label>
-                    <input type="text" class="form-control">
+                    <input name="country" [(ngModel)]="country" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Mobile No</label>
-                    <input type="number" class="form-control">
+                    <input name="mobile" [(ngModel)]="mobile" type="number" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Email Id</label>
-                    <input type="email" class="form-control">
+                    <input name="email" [(ngModel)]="email" type="email" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Parent Name</label>
-                    <input type="text" class="form-control">
+                    <input name="parentname" [(ngModel)]="parentname" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Gender</label>
-                    <input type="text" class="form-control">
+                    <input name="gender" [(ngModel)]="gender" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Highest Degree</label>
-                    <input type="text" class="form-control">
+                    <input name="degree" [(ngModel)]="degree"type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Year of Experience</label>
-                    <input type="number" class="form-control">
+                    <input name="experience" [(ngModel)]="experience" type="number" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Joining Date</label>
-                    <input type="date" class="form-control">
+                    <input name="joiningdate" [(ngModel)]="joiningdate" type="date" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Username</label>
-                    <input type="text" class="form-control">
+                    <input name="username" [(ngModel)]="username" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Password</label>
